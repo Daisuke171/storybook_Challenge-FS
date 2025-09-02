@@ -66,6 +66,9 @@ export const Fixed: StoryObj<typeof FixedShowcase> = {
     },
     onPrimaryClick: { action: "primary button clicked" },
     onSecondaryClick: { action: "secondary button clicked" },
+    isLoading: { control: "boolean" },
+    isMobile: { control: "boolean" },
+    moreInputs: { control: "boolean" },
   },
 };
 
